@@ -1,5 +1,6 @@
-const invertor = () =>{
-    const body1 = document.querySelector("body");
-    const 
-    body1.classList.toggle("invertorBG")
+const invertor = ()=>{
+    const target = document.querySelector("body");
+    const list = ["invertorBG","heading-color","button","heading-color"];
+    
+    
 }

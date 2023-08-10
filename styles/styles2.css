@@ -40,7 +40,7 @@
     height: 400px;
     width:  400px; 
     background-color: antiquewhite;
-    background-color: #FEC86E;
+    background-color: #E7E7E7;
     display:flex;
     justify-content: end;
     align-items: end;
@@ -49,11 +49,29 @@
 .child{
     border-radius:20px;
     height: 400px;
-    width:  600px; 
-    background-color: #BC9BFF;
+    width:  400px; 
+    background-color: #bbaed5;
     display:flex;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;      
+    box-shadow: rgba(11, 11, 24, 0.2) 0px 7px 29px 0px;      
 }
+
+.child:hover{
+    background-color: #614f98;
+}
+
+/* work section */
+.work{
+    display: flex;
+    gap:1rem;
+    margin: 20px;
+}
+.work-heading{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 4.3rem;
+    font-size:2.8rem;
+}
+
+/* work section end here */
 hr{
     margin-left: 14rem;
     margin-right: 14rem;
