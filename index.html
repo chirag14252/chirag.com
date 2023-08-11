@@ -15,21 +15,52 @@
     <title>chirag.com</title>
 </head>
 
-<body >
-    <nav class="p-4 flex justify-between">
-        <div class="ml-2 font-bold flex space-x-1 items-center">
+<body>
+    <nav class="p-4 flex justify-between shadow-lg mb-10">
+        <div class="ml-2 font-bold flex space-x-2 items-center">
             <div class="rounded-2xl bg-purple-500 h-4 w-4"></div>
             <div class="rounded-2xl bg-green-300 h-4 w-4"></div>
             <div class="rounded-2xl bg-red-300 h-4 w-4"></div>
-            <div class="font-bold text-4xs ">CHIRAG</div>
+            <div class="font-bold text-6xs ">CHIRAG</div>
         </div>
-        <ul class="flex justify-end">
-            <li class="mx-4 cursor-pointer text-black-800 hover:text-red-800"><a href =index2.html>Home</a></li>
-            <li class="mx-4 cursor-pointer text-black-800 hover:text-red-800"><a href ="about.html">About</a></li>
-            <li class="mx-4 cursor-pointer text-black-800 hover:text-red-800">Works</li>
-            <li class="mx-4 cursor-pointer text-black-800 hover:text-red-800">Contact</li>
+        <div class="hidden md:flex items-center space-x-1">
+            <a href="" class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold ">Home</a>
+            <a href=""
+                class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Services</a>
+            <a href=""
+                class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">About</a>
+            <a href=""
+                class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact
+                Us</a>
+        </div>
         </ul>
+        <!-- design for mobile -->
+        <div class="md:hidden flex items-center">
+            <button class="outline-none mobile-menu-button">
+                <svg
+                    class="w-6 h-6 text-gray-500"
+                    x-show="!showMenu"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                <path d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        <!-- menu button -->
     </nav>
+    <div class="hidden mobile-menu">
+        <ul class="">
+            <li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a></li>
+            <li><a href="#services" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Services</a></li>
+            <li><a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About</a></li>
+            <li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact Us</a></li>
+        </ul>
+    </div>
     <!-- main frame  : no changes to be made-->
     <div class="parent">
         <div class="child1">
@@ -39,7 +70,7 @@
                 a web-Developer
             </div>
             <div>
-            
+
             </div>
             <div class="para">
                 currently working as remote developer.
@@ -57,9 +88,11 @@
             </div>
         </div>
     </div>
-        <!-- work section -->
-    <div class = "text-left mt-10 mb-1"><p class="work-heading">My works</p></div>
-    <div class = "flex gap-12 justify-center flex-wrap">  
+    <!-- work section -->
+    <div class="text-left mt-10 mb-1">
+        <p class="work-heading">My works</p>
+    </div>
+    <div class="flex gap-12 justify-center flex-wrap">
         <div class="child">
             <div class="w-10 h-10 rounded-2xl bg-white flex justify-center items-center my-5 mx-6 cursor-pointer">
                 <img src="images/arrow-up-right.png" alt="click to see projects" class="h-4 w-4 mx -3 my-3">
@@ -67,33 +100,35 @@
             <img src="" alt="">
         </div>
         <div class="child">
-            <a href ="https://chirag14252.github.io/clinicwebsite/">
-            <div class="w-10 h-10 rounded-2xl bg-white flex justify-center items-center my-5 mx-4 cursor-pointer">
-                <img src="images/arrow-up-right.png" alt="click to see projects" class="h-4 w-4 mx-2 my-3"></a>
-            </div>
-            <img src="" alt="">
+            <a href="https://chirag14252.github.io/clinicwebsite/">
+                <div class="w-10 h-10 rounded-2xl bg-white flex justify-center items-center my-5 mx-4 cursor-pointer">
+                    <img src="images/arrow-up-right.png" alt="click to see projects" class="h-4 w-4 mx-2 my-3">
+            </a>
         </div>
-        <div class="child">
-            <a href ="https://chirag14252.github.io/clinicwebsite/">
+        <img src="" alt="">
+    </div>
+    <div class="child">
+        <a href="https://chirag14252.github.io/clinicwebsite/">
             <div class="w-10 h-10 rounded-2xl bg-white flex justify-center items-center my-5 mx-4 cursor-pointer">
-                <img src="images/arrow-up-right.png" alt="click to see projects" class="h-4 w-4 mx-2 my-3"></a>
-            </div>
-            <img src="" alt="">
-        </div>
+                <img src="images/arrow-up-right.png" alt="click to see projects" class="h-4 w-4 mx-2 my-3">
+        </a>
+    </div>
+    <img src="" alt="">
+    </div>
     </div>
     <br>
     <!-- end of work section -->
     <hr>
     <!-- footer section -->
-    <div class = " mt-3 p-5 rounded-2xl flex justify-start content-center justify-between">
-       <button class =" border-2 border-current p-1 px-3 " onclick="invertor()">Night mode</button>
-       <div class = "text-slate-400 text-0.5xl">
-        © 2023 All Rights Reserved, Chirag Bhardwaj
-       </div>
-       <div class = "flex justify-center items-center">
-        <img src="images/telephone.png" class = "h-4">
-        +91-8543999604
-       </div>
+    <div class=" mt-3 p-5 rounded-2xl flex justify-start content-center justify-between">
+        <p id="time_date"></p>
+        <div class="text-slate-400 text-0.5xl">
+            © 2023 All Rights Reserved, Chirag Bhardwaj
+        </div>
+        <div class="flex justify-center items-center">
+            <img src="images/telephone.png" class="h-4">
+            +91-8543999604
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
