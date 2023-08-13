@@ -12,7 +12,7 @@
 .child1{
     border-radius:20px;
     height: 400px;
-    width:  600px; 
+    width: 500px;
     background-color: antiquewhite;
     flex-grow: 2;
     background-color:#E7E7E7;
@@ -81,3 +81,18 @@ hr{
 .invertorBG{
     background-color: black;
 }
+@media (max-width: 640px) {
+    .Heading {
+        font-size: 1.5rem; /* Example: Adjust the value as needed */
+    }
+
+    .para {
+        font-size: 1rem; /* Example: Adjust the value as needed */
+    }
+
+    /* Add more responsive font size adjustments as needed */
+}
+
+
+
+
