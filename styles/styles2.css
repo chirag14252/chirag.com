@@ -1,8 +1,8 @@
 .parent{
     display: flex;
     flex-direction:row;
-    gap:10px;
-    margin-top: 10px;
+    gap:1rem;
+    margin: 1rem;
     flex-wrap: wrap;
     margin-left: 69px;
     margin-right: 69px;
@@ -89,7 +89,9 @@ hr{
     .para {
         font-size: 1rem; /* Example: Adjust the value as needed */
     }
-
+    .footer1{
+        font-size: xx-small;
+    }
     /* Add more responsive font size adjustments as needed */
 }
 
