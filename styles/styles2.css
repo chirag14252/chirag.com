@@ -107,6 +107,9 @@ hr{
         text-align:left;
         margin-bottom: 0.2rem;
     }
+    .subclass{
+        margin-left: 10px;
+    }
 }
 
 
