@@ -4,8 +4,8 @@
     gap:1rem;
     margin: 1rem;
     flex-wrap: wrap;
-    margin-left: 69px;
-    margin-right: 69px;
+    margin-left: 5.8rem;
+    margin-right: 5.8rem;
     justify-content: center;   
     
 }
@@ -93,8 +93,11 @@ hr{
         font-size: xx-small;
     }
     /* Add more responsive font size adjustments as needed */
+    .parent{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }
-
 
 
 
