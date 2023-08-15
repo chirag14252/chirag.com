@@ -97,7 +97,6 @@ hr{
     .parent{
         margin-left: 1.6rem;
         margin-right: 1.6rem;
-        padding: 5%;
     }
     .child{
         margin-left: 1rem;
@@ -109,7 +108,7 @@ hr{
         margin-bottom: 0.2rem;
     }
     .subclass{
-        margin-left: 10px;
+        
     }
     
 }
