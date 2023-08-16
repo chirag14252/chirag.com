@@ -81,7 +81,7 @@ hr{
 }
 .child-heading{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 @media (max-width: 640px) {
     .Heading {
@@ -112,7 +112,7 @@ hr{
         width: 2rem;
     }
     .child-heading{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
 
