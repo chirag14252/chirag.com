@@ -79,8 +79,8 @@ hr{
     color:black;
     display: block; 
 }
-.invertorBG{
-    background-color: black;
+.child-heading{
+    font-family: 'Poppins', sans-serif;
 }
 @media (max-width: 640px) {
     .Heading {
