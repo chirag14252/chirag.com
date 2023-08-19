@@ -74,8 +74,8 @@
 
 /* work section end here */
 hr{
-    margin-left: 14rem;
-    margin-right: 14rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     color:black;
     display: block; 
 }
@@ -113,6 +113,7 @@ hr{
     }
     .child-heading{
         font-size: 2rem;
+         
     }
 }
 
