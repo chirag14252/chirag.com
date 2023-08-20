@@ -67,15 +67,12 @@
 }
 .work-heading{
     font-family: 'Poppins', sans-serif;
-    margin-left: 4.3rem;
     margin-top: 6rem;
     font-size:2.8rem;
 }
 
 /* work section end here */
 hr{
-    margin-left: 10rem;
-    margin-right: 10rem;
     color:black;
     display: block; 
 }
@@ -83,6 +80,7 @@ hr{
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
 }
+
 @media (max-width: 640px) {
     .Heading {
         font-size: 1.5rem; /* Example: Adjust the value as needed */
@@ -105,16 +103,17 @@ hr{
     }
     .work-heading{
         font-size: 2rem;
-        text-align:center;
+        
         margin-bottom: 0.2rem;
     }
     .subclass{
         width: 2rem;
     }
     .child-heading{
-        font-size: 2rem;
+        font-size: 1.5rem;
          
     }
+
 }
 
 
