@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./submit.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="signup-form">
+        <h1>Sign Up form</h1>
+        <form onsubmit="" id="formId ">
+            <label for="name">Name</label>
+            <input type="text" placeholder="chirag" id="name">
+            <p id="name_err"></p>
+
+            <label for="mobile">Mobile Number</label>
+            <input type="text" placeholder="+91-2132131231" id = "mobile">
+            <p id = "phone_err"></p>
+
+            <label for="email">Email</label>
+            <input type="text" placeholder="a@b.c" id="email">
+            <p id="email_err"></p>
+            
+            <label for="name">Password:</label>
+            <input type="password" id="password">
+            <br>
+            <br>
+            <label for="cnf">Confirm password</label>
+            <input type="password" id="cnf">
+            <br>
+            <button type="submit" id="submit" onclick="nameError()">Register</button>
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
