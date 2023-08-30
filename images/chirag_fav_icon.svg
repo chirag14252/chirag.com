@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 611 611">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: Raleway-ExtraBold, Raleway;
+        font-size: 479.59px;
+        font-weight: 700;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="15.2" y1="14.24" x2="593.91" y2="594.85" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00cdac"/>
+      <stop offset="1" stop-color="#02aab0"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-1" width="611" height="611" rx="53.5" ry="53.5"/>
+      <text class="cls-2" transform="translate(132.52 478.05)"><tspan x="0" y="0">C</tspan></text>
+    </g>
+  </g>
+</svg>
