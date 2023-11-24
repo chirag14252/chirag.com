@@ -1,3 +1,8 @@
+// import {Cloudinary} from "@cloudinary/url-gen";
+
+// const cld = new Cloudinary({cloud: {cloudName: 'dkfraz9lt'}});
+
+
 // Assuming you have an HTML form with an ID 'myForm' and a submit button with an ID 'submitButton'
 document.getElementById('myForm').addEventListener('submit', function (event) {
     event.preventDefault(); // Prevent the default form submission behavior
